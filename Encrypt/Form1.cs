@@ -6,7 +6,7 @@ namespace Encrypt
 {
     public partial class Form1 : Form
     {
-        // Declare class
+        // Declare variables
         private string basetext;
         private string numberText;
         private char[] originalChars;  // Store all original characters
@@ -20,7 +20,7 @@ namespace Encrypt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Assign values to the class
+            // Assign values to the variables
             basetext = textBox1.Text;
             numberText = textBox3.Text;
 
